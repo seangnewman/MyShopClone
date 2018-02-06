@@ -55,7 +55,7 @@
             <strong>Bucket Total </strong>
         </td>
         <td>
-            @String.Format("{0:c}", (from p in Model select p.Price * p.Quantity).Sum());
+            @String.Format("{0:c}", (from p in Model select p.Price * p.Quantity).Sum())
         </td>
     </tr>
 </table>
