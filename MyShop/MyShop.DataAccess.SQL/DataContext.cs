@@ -12,7 +12,6 @@ namespace MyShop.DataAccess.SQL
     {
         public DataContext() : base("DefaultConnection")
         {
-
         }
 
         public DbSet<Product> Products { get; set; }
